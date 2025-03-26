@@ -2,7 +2,7 @@
 name = "link_shortener"
 version = "0.1.0"
 authors = ["Luis Daniel Prendas <luisprendas.dev@gmail.com>"]
-edition = "2025"
+edition = "2024"
 description = "API REST para acortar enlaces con Rust."
 license = "MIT"
 
