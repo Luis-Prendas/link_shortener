@@ -1,0 +1,20 @@
+[package]
+name = "link_shortener"
+version = "0.1.0"
+authors = ["Luis Daniel Prendas <luisprendas.dev@gmail.com>"]
+edition = "2025"
+description = "API REST para acortar enlaces con Rust."
+license = "MIT"
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rand = "0.8"
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+actix-rt = "2"
+
+[features]
+default = []
